@@ -2,7 +2,7 @@
 
 | Metric | Definition | Grain | Notes |
 |---|---|---|---|
-| Active customers | Distinct customers with ACTIVE status | Month, segment, region | Status is taken from the supplied customer snapshot in this small example |
+| Active customers | Distinct customers with ACTIVE status | Onboarding cohort month, segment, region | This groups the supplied current-status snapshot by onboarding month; it is not a historical month-end active-customer series |
 | Open accounts | Count of accounts with OPEN status | Month, product | Account-level measure; not interchangeable with customer count |
 | Posted transaction volume | Sum of amounts for POSTED transactions | Month, transaction type | Reversed and pending rows are excluded |
 | Posted transaction count | Count of POSTED transaction IDs | Month, transaction type | Count distinct IDs if source duplicates are possible |
