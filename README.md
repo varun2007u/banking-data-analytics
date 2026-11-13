@@ -3,7 +3,7 @@
 A portfolio case study using a small synthetic retail-banking dataset to explore customer activity, balances, product mix, and operational data controls.
 
 ## Business questions
-- How many active customers do we have by month?
+- How does the current active-customer snapshot break down by onboarding cohort?
 - What is the month-end deposit balance and its movement?
 - Which products contribute most to the deposit base?
 - Are the customer, account, and transaction records complete and internally consistent?
